@@ -18,7 +18,7 @@ public class MultilevelInheritanceDemo {
 		System.out.println("Enter brand Name :");
 		String brand=s.nextLine();
 		t.setName1(brand);
-		((BMW) t).display2();
+		t.display2();
 		
 		System.out.println();
 		
